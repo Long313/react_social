@@ -3,7 +3,6 @@ import Rightbar from "../../components/rightbar/Rightbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Topbar from "../../components/topbar/Topbar";
 import './home.css';
-
 function Home() {
   return (
     <>
@@ -11,7 +10,7 @@ function Home() {
       <div className="homeContainer">
         <Sidebar />
         <Feed />
-        <Rightbar />
+        <Rightbar/>
       </div>
     </>
   );
