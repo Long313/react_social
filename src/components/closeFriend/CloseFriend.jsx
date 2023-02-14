@@ -1,10 +1,11 @@
 import './closeFriend.css';
-const CloseFriend = ({ profilePicture, username }) => {
+const CloseFriend = ({ user}) => {
+  const PF = process.env.REACT_APP_PUBLIC_FOLDER
   return (
     <>
       <li className="sidebarFriend">
-        <img className="sidebarFriendImg" src={profilePicture} alt="" />
-        <span className="sidebarFriendName">{username}</span>
+        <img className="sidebarFriendImg" src={PF + user.profilePicture} alt="" />
+        <span className="sidebarFriendName">{user.username}</span>
       </li>
     </>
   );

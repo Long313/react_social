@@ -72,3 +72,49 @@
 
 .rightbarUsername {
 }
+
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfor {
+  margin-bottom: 30px;
+}
+
+.rightbarInforItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInforKey {
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.rightbarInforValue {
+  font-weight: 300;
+  color: #555;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.rigthbarFollowingName {
+}

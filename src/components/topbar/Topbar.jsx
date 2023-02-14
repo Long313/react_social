@@ -1,13 +1,16 @@
 import "./topbar.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsFillPersonFill, BsFillChatLeftDotsFill } from "react-icons/bs";
-import { IoMdNotifications, IoChatboxEllipsesSharp } from "react-icons/io";
+import { IoMdNotifications } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">Lamasocial</span>
+        <Link to="/" >
+          <span className="logo">Lamasocial</span>
+        </Link>
       </div>
       <div className="topbarCenter">
         <div className="searchbar">
